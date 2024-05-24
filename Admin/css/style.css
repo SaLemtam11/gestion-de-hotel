@@ -1,0 +1,330 @@
+
+body
+{
+
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 16px;
+
+
+
+}
+
+
+.bood{
+  background-image: url('../img/paj.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-right:20%;
+  margin-left: 20%;
+}
+.right {
+  float :right;
+}
+
+.left{
+  float : left;
+}
+/*____________________ تنسيقات شريط التصفح ________________________*/
+
+.myTopNav .navbar {
+  background: linear-gradient(to right, #414040 20%, #414040 60%)!important;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0 0 10px 0;
+}
+
+/*_________________________________________________________________________*/
+
+.top-label{
+
+  background: linear-gradient(to bottom left, #66ffff 0%, #ffbd66 46%)!important ;
+  font-size: 20px;
+  color: #f2f2f2 90;
+  font-weight: bold;
+  padding: 15px 5px;
+
+}
+.top-label span {margin-right : 200px;}
+.top-label span span {color : #ff5e00 ; }
+
+
+/*_________________________________________________________________________*/
+
+.my-content{
+width: 100%;
+transition: all 0.4s;
+}
+
+
+ .novo .form-control {
+  width: auto;
+  display:inline;
+  margin: 10px 5px;
+}
+
+.form-control select {
+  height: 32px;
+  width: 50px;
+}
+
+
+.my-tabel .tyb-head {
+  background-color: #d1def7; /*_______________*/
+}
+
+.inovo-button .btn_serch  {
+    color: #7b3a3a;
+    background-color: #f7ae19;
+    /* border-color: #28a745; */
+}
+.my-scc {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.my-creat-new .novo , .my-serch .novo {
+  margin: 20px 0 ;
+  border: solid 2px #c0c0c0;
+  padding: 10px;
+  box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagi { width: 100%}
+.show nav {
+  width: 30%;
+  margin: 5px auto;
+}
+
+.show-nov{display: block !important;}
+
+
+.myTopNav{
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+}
+
+.myTopNav ul {width: 100%;}
+.myTopNav ul .nav-item{margin-left:  15px; }
+.myTopNav ul .my-drop{margin-left: 60%;}
+
+
+.my-creat-new .novo {
+  display: none;
+}
+
+.icons {margin: 3px auto; width: 80%;}
+.icons .fas , .icon  .fas {
+  margin-left: 15px;
+}
+
+.icon {width: 30% ; margin: 3px auto;}
+
+/*--------------------------------------------------*/
+
+ .vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+  background: linear-gradient(to right, #0ae653 0%, #0fda207a 151%)!important;
+
+
+}
+
+.up-slider {
+  background: linear-gradient(to right, #2836da 0%, #5560DA 151%)!important;
+}
+
+.vertical-nav .bg-light {
+    background-color: linear-gradient(to right, #5560DA 0%, #5560DA 151%)!important;
+}
+
+
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+
+}
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+.text-gray {
+  color: #aaa;
+}
+.nav-link{
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    background:#f3f2f2;
+}
+.text-primary{
+    color:#7579e7 !important;
+}
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+/*---------------------------------------------------------------*/
+
+/* Coded with love by Mutiullah Samim */
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #f39c12;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+  }
+  .brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #60a3bc;
+    padding: 10px;
+    text-align: center;
+  }
+  .brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .form_container {
+    margin-top: 100px;
+  }
+  .login_btn {
+    width: 100%;
+    background: #c0392b !important;
+    color: white !important;
+  }
+  .login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .login_container {
+    padding: 0 2rem;
+  }
+  .input-group-text {
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+  }
+
+
+.icon-logg span  {
+  background-color: #5560da !important;
+}
+
+.mt-4 links .incc {color: red  !important ;}
+
+.login_btn {
+  background-color: #5560da !important;
+}
+
+
+
+/*_______________________________________________________*/
+#my-form ,#my-form-2 ,#my-form-3 ,#my-form-4 {
+  background-color: #a5a6b308;
+  margin: 20px auto;
+  width: 81%;
+  display: none  ;
+  transition: all 0.4s;
+}
+
+.hidden-up{
+  display : none !important;
+}
+
+.side-item-3  {
+  background-color: #eaad60;
+  color: black;
+  border-top: #7876ef 1px solid;
+}
+
+.innertabel{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#ta1 td ,#ta2 td,#ta3 td ,#ta4 td
+,#ta10 td ,#ta20 td,#ta30 td ,#ta40 td {
+  border: 2px solid black;
+}
+
+
+
+#ta1 th ,#ta2 th ,#ta3 th ,#ta4 th
+,#ta10 th ,#ta20 th ,#ta30 th ,#ta40 th{
+  background-color: #1e59da;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+.signat{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+/*_________________________________________________________*/

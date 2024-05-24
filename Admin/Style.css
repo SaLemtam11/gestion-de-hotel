@@ -1,0 +1,497 @@
+
+
+/*{
+  font-family: 'Nunito', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+*::selection{
+  background:var(--orange);
+  color:#fff;
+}*/
+
+/*html{
+  font-size: 100%;
+  overflow-x: hidden;
+  scroll-padding-top: 10rem;
+  scroll-behavior: inherit;
+}
+
+header{
+  position: fixed;
+  top:0; left: 0; right:0;
+  /*z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align:center;
+ 
+}*/
+
+
+
+
+
+/*---------------------------------------------------------*/
+/*body
+{
+
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0.274),rgba(0, 0, 0, 0.274)) url(img/emda.png);
+ /* position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+
+
+}*/
+
+
+.bood{
+  background-image: url(img/paj.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-right:10%;
+  margin-left: 10%;
+}
+.right {
+  float :right;
+}
+
+.left{
+  float : left;
+}
+/*____________________ تنسيقات شريط التصفح ________________________*/
+
+/*.myTopNav .navbar {
+  /*background: linear-gradient(to right, #fdaf07 20%, #f6ae41ef 60%)!important;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  
+  position: static;
+}*/
+
+/*_________________________________________________________________________*/
+
+/*.top-label{
+ 
+
+  background: linear-gradient(to bottom left, #66ffff 0%, #0a0a0a 46%)!important ;
+  font-size: 20px;
+  color: #f2f2f2 90;
+  font-weight: bold;
+  padding: 15px 5px;
+
+}
+.top-label span {margin-right : 200px;}
+.top-label span span {color : #ff6004d8 ; }
+
+
+/*_________________________________________________________________________*/
+
+.my-content{
+width: 100%;
+transition: all 0.4s;
+}
+
+
+ .novo .form-control {
+  /*width: auto;
+  display:inline;*/
+  /*margin: 10px 5px;*/
+}
+
+.form-control select {
+  height: 40px;
+  width: 40px;
+}
+
+
+/*.my-tabel .tyb-head {
+  background-color: #127eeb; /*______ table______admin___
+
+  
+  
+}*/
+.sidebar .links_name{
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+
+.inovo-button .btn_serch  {
+    color: #070606;
+    background-color: #f7ae19;
+    /* border-color: #28a745;             admin*/
+
+}
+.my-scc {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.my-creat-new .novo , .my-serch .novo {
+  margin: 10px 0 ;
+  border: solid 1px #cac5c5;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.pagi { width: 100%}
+.show nav {
+  width: 40%;
+  margin: 5px auto;
+}
+.tb1{
+   font-size: 12px;
+   
+}
+.tabel{
+  font-size: 12px;
+}
+.show-nov{display: block !important;}
+
+/*
+header .navbar-nav .my-drop{margin-left: 70rem;}
+header .navbar-nav.nav-item{
+  margin-left:  80%; padding-left: 80%;
+  
+}*/
+
+.my-creat-new .novo {
+  display: none;
+}
+
+.icons {margin: 3px auto; width: 70%;}
+.icons .fas , .icon  .fas {
+  margin-left: 15px;
+}
+
+.icon {width: 30% ; margin: 3px auto;}
+
+/*--------------------------------------------------*/
+
+ /*.vertical-nav {
+  min-width: 15rem;
+  padding-top: 15px;
+  width: 20px;
+  height: 100vh;
+ top: 3.7rem;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+ background: linear-gradient(to right, #1d1b31 0%, #1d1b31 151%)!important;
+position: fixed;
+
+
+}
+
+/*.up-slider {
+  background: linear-gradient(to right, #99911e 0%, #5a5a5a 151%)!important;
+}
+
+.vertical-nav .bg-light {
+    background-color: linear-gradient(to right, #f8b926 0%, #f8b926 151%)!important;
+}*/
+.show {
+ 
+  width: calc(100% - 0rem);
+  transition: all 0.4s;
+ 
+  
+}
+
+.page-content {
+  /*width: calc(100% - 20rem);
+  margin-left: 15rem;
+  transition: all 0.4s;
+  margin-top: 4rem;
+ /*background-image: url(img/paj.jpg);
+  
+  background: linear-gradient(rgba(0,0,0.274),rgba(0, 0, 0, 0.274))url(img/paj.jpg);
+*/
+}
+.page-content1 {
+  width: calc(100% - 2rem);
+  
+  transition: all 0.4s;
+  margin-top: 5rem;
+
+}
+
+
+
+
+
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed rgb(187, 182, 182);
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+.text-gray {
+  color: rgb(12, 11, 11);
+ 
+}
+.nav-link{
+
+  /*  color:#fff;
+  font-size: 1rem;
+  margin:0 .8rem;
+  text-transform: capitalize;*/
+}
+.nav-link:hover{
+  /* background:#fffbfb;
+    /*border-radius: 10px;*//*   color:#fff;
+  font-size: 1rem;
+  margin:0 .8rem;
+  text-transform: capitalize;*/
+}
+.text-primary{
+    color:#1414e7 !important;
+}
+/*@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -80rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 15rem;
+    width: calc(100% - 15rem);
+  }
+  
+}*/
+/*---------------------------------------------------------------*/
+
+
+  .user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #dba3089b;
+    position: relative;
+    display: flex;             /*admin*/
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+  }
+  .brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #0c0c0c;
+    padding: 10px;
+    text-align: center;
+  }
+  .brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .form_container {
+    margin-top: 100px;
+  }
+  /*.login_btn {
+    width: 100%;
+    background: #c0392b !important;
+    color: white !important;
+  }*/
+  .login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .login_container {
+    padding: 0 2rem;
+  }
+  .input-group-text {
+   /* background: #c0392b !important;*/
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  /*.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+  }*/
+
+
+.icon-logg span  {
+  background-color: #050505 !important;/*admin*/
+}
+
+.mt-4 links .incc {color: red  !important ;}/*admin*/
+
+.login_btn {
+  background-color: #050505 !important;/*admin*/
+}
+
+
+
+/*_______________________________________________________*/
+#my-form ,#my-form-2 ,#my-form-3 ,#my-form-4 {
+  /*background-color: #f1f2f5af;*/
+  margin: 20px auto;
+  width: 81%;
+  display: none  ;
+  transition: all 0.4s;
+  border-radius: 20px;
+}
+
+.hidden-up{
+  display : none !important;
+}
+
+.side-item-3  {
+  background-color: #eaad60;
+  color: black;
+  border-top: #efeff3 1px solid;
+}
+
+.innertabel{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#ta1 td ,#ta2 td,#ta3 td ,#ta4 td
+,#ta10 td ,#ta20 td,#ta30 td ,#ta40 td {
+  border: 2px solid black;
+}
+
+
+
+#ta1 th ,#ta2 th ,#ta3 th ,#ta4 th
+,#ta10 th ,#ta20 th ,#ta30 th ,#ta40 th{
+  background-color: #1e59da;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+.signat{
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+/*_________________________________________________________*/
+.a1{
+  color: #fff;
+}
+
+
+
+@media (max-width:1200px){
+
+  html{
+    font-size: 70%;
+  }
+
+}
+
+@media (max-width:991px){
+
+ 
+}
+
+
+
+@media (max-width:600px){
+
+ /* header{
+    padding:2rem;
+    border-radius: 0 0 100px 100px;
+  }*/
+  /*header .myTopNav .navbar{
+    position: absolute;
+  top:40%; right:0; left: 0;
+    background: #333;
+    border-top: .1rem ;
+
+  }*/
+  .page-content {
+    width: calc(100% - 10rem);
+    margin-left: 1rem;
+    transition: all 0.4s;
+    margin-top: 5rem;
+ 
+  }
+  .show {
+ 
+    width: calc(100% - 20rem);
+    transition: all 0.4s;
+   
+    
+  }
+
+
+  .page-content1 {
+    width: calc(100% - 2rem);
+    
+    transition: all 0.4s;
+    margin-top: 5rem;
+  
+  }
+ 
+
+  #sidebar {
+    margin-left: -100rem;
+  }
+  /*#sidebar.active {
+    margin-left: 0;
+  }*/
+  /*#content {
+    width: 100%;
+    margin: 0;
+  }*/
+  #content.active {
+    margin-left: 2rem;
+    width: calc(100% - 2rem);
+  }
+
+}
